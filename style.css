@@ -1,0 +1,111 @@
+/* Bootstrap */
+#title {
+    text-align: center;
+    font: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f818b;
+    padding: 10px 5px;
+}
+
+#search {
+    margin: 5px 0;
+}
+
+#bodyContent {
+    margin: 0 0 5px 0;
+    border: 1px solid #068de2;
+    box-shadow: 2px 2px 2px #01b1e6;
+    border-radius: 5px;
+}
+
+#engWord {
+    font: Arial;
+    font-size: 20px;
+    color: #762020;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#bangMeaning {
+    font-family: myFirstFont;
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+}
+
+#bangMeaning ul li {
+    list-style: circle;
+}
+
+#info {
+    margin: 5px 0;
+}
+
+#infoTitle {
+    font: Arial;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* /Bootstrap */
+
+/* Bangla Support For Non Unicode */
+@font-face {
+    font-family: myFirstFont;
+    src: url(Bangla/SutonnyMJ/SutonnyMJ.woff);
+}
+.bangSupport {
+    font-family: myFirstFont;
+    font-size: 20px;
+    color: black;
+}
+.bangSupport ul {
+    padding: 0 15px 0 15px;
+}
+.bangSupport ul li {
+    padding: 0;
+}
+/* End of Bangla Support For Non Unicode */
+
+
+/* suggesstion box */
+#suggestionResult {
+    width: 180px;
+    margin-left: 18%;
+    top: -5px;
+}
+
+.engWord ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    background-color: #0f818b;
+}
+
+.engWord li {
+    display: block;
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    border-bottom: 1px solid #0f757e;
+}
+
+.engWord li a {
+    display: block;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the link color on hover */
+.engWord li a:hover {
+    background-color: #17a0ac;
+    color: white;
+} 
+/* end of suggesstion box */
+
+
+

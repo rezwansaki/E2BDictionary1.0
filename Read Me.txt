@@ -1,0 +1,33 @@
+
+  
+  Just search word and get meaning in Bangla 
+  English to Bangla dictionary  
+
+
+  Search from JSON 
+
+  JSON data store in a text file 
+ 
+  Only search result will be displayed 
+
+  Search suggesstion will be displayed
+
+  Meaning will be displayed by click search button, pressing Enter key or click word     from search suggesstion list 
+
+  All data of text file will not be displayed. 
+
+  This is a pure search system by using AngularJS and JSON. 
+
+  This database is non-unicode text file
+
+  SutonnyMJ font has been embeded 
+
+  Search from English to Bangla 
+
+  This database contain 17207 words 
+
+  All information such as developer's information, database informatino etc will be      displayed dynamically. 
+
+
+   Start : 24-Aug-2016
+   End : 01-September-2016 (with design) 
