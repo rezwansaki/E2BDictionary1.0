@@ -8,6 +8,11 @@
     padding: 10px 5px;
 }
 
+.btn-group a{
+    font: Arial;
+    font-size: 14px;
+}
+
 #search {
     margin: 5px 0;
 }

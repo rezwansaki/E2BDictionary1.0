@@ -32,7 +32,8 @@ app.controller('customersCtrl', function($scope, $http) {
     $("#info").hide();
     
 
-    $scope.findValue = function(enteredValue) {     
+    $scope.findValue = function(enteredValue) {   
+        $scope.enteredValue = '';
         $scope.results = []; //clear the result array 
         for(i=0; i<$scope.names.length; i++) {
             $scope.str = $scope.names[i].cWord.toLowerCase(); //convert all cWord into lowercase to fix the problem 
